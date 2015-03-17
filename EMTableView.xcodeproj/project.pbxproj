@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FD2922A1AB802B9008FC0F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD292291AB802B9008FC0F6 /* main.m */; };
+		2FD2922D1AB802B9008FC0F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD2922C1AB802B9008FC0F6 /* AppDelegate.m */; };
+		2FD292331AB802B9008FC0F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FD292311AB802B9008FC0F6 /* Main.storyboard */; };
+		2FD292351AB802B9008FC0F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD292341AB802B9008FC0F6 /* Images.xcassets */; };
+		2FD292381AB802B9008FC0F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FD292361AB802B9008FC0F6 /* LaunchScreen.xib */; };
+		2FD292441AB802B9008FC0F6 /* EMTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD292431AB802B9008FC0F6 /* EMTableViewTests.m */; };
+		2FD292501AB80387008FC0F6 /* EMPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD2924E1AB80387008FC0F6 /* EMPhotoCell.m */; };
+		2FD292511AB80387008FC0F6 /* EMPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2924F1AB80387008FC0F6 /* EMPhotoCell.xib */; };
+		2FD292541AB8045E008FC0F6 /* EMPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD292531AB8045E008FC0F6 /* EMPhoto.m */; };
+		2FD292591AB80571008FC0F6 /* EMPhotoDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD292581AB80571008FC0F6 /* EMPhotoDataSource.m */; };
+		2FD2925E1AB80D93008FC0F6 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD2925D1AB80D93008FC0F6 /* TableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FD2923E1AB802B9008FC0F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FD2921C1AB802B9008FC0F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FD292231AB802B9008FC0F6;
+			remoteInfo = EMTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FD292241AB802B9008FC0F6 /* EMTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD292281AB802B9008FC0F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FD292291AB802B9008FC0F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FD2922B1AB802B9008FC0F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FD2922C1AB802B9008FC0F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FD292321AB802B9008FC0F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FD292341AB802B9008FC0F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2FD292371AB802B9008FC0F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2FD2923D1AB802B9008FC0F6 /* EMTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD292421AB802B9008FC0F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FD292431AB802B9008FC0F6 /* EMTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMTableViewTests.m; sourceTree = "<group>"; };
+		2FD2924D1AB80387008FC0F6 /* EMPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMPhotoCell.h; sourceTree = "<group>"; };
+		2FD2924E1AB80387008FC0F6 /* EMPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMPhotoCell.m; sourceTree = "<group>"; };
+		2FD2924F1AB80387008FC0F6 /* EMPhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EMPhotoCell.xib; sourceTree = "<group>"; };
+		2FD292521AB8045E008FC0F6 /* EMPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMPhoto.h; sourceTree = "<group>"; };
+		2FD292531AB8045E008FC0F6 /* EMPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMPhoto.m; sourceTree = "<group>"; };
+		2FD292571AB80571008FC0F6 /* EMPhotoDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMPhotoDataSource.h; sourceTree = "<group>"; };
+		2FD292581AB80571008FC0F6 /* EMPhotoDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMPhotoDataSource.m; sourceTree = "<group>"; };
+		2FD2925C1AB80D93008FC0F6 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		2FD2925D1AB80D93008FC0F6 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FD292211AB802B9008FC0F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD2923A1AB802B9008FC0F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FD2921B1AB802B9008FC0F6 = {
+			isa = PBXGroup;
+			children = (
+				2FD292261AB802B9008FC0F6 /* EMTableView */,
+				2FD292401AB802B9008FC0F6 /* EMTableViewTests */,
+				2FD292251AB802B9008FC0F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FD292251AB802B9008FC0F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FD292241AB802B9008FC0F6 /* EMTableView.app */,
+				2FD2923D1AB802B9008FC0F6 /* EMTableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FD292261AB802B9008FC0F6 /* EMTableView */ = {
+			isa = PBXGroup;
+			children = (
+				2FD292601AB811D3008FC0F6 /* Cell */,
+				2FD2925F1AB80D99008FC0F6 /* Controller */,
+				2FD292561AB80559008FC0F6 /* DataSource */,
+				2FD292551AB80461008FC0F6 /* Entity */,
+				2FD2922B1AB802B9008FC0F6 /* AppDelegate.h */,
+				2FD2922C1AB802B9008FC0F6 /* AppDelegate.m */,
+				2FD292311AB802B9008FC0F6 /* Main.storyboard */,
+				2FD292341AB802B9008FC0F6 /* Images.xcassets */,
+				2FD292361AB802B9008FC0F6 /* LaunchScreen.xib */,
+				2FD292271AB802B9008FC0F6 /* Supporting Files */,
+			);
+			path = EMTableView;
+			sourceTree = "<group>";
+		};
+		2FD292271AB802B9008FC0F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FD292281AB802B9008FC0F6 /* Info.plist */,
+				2FD292291AB802B9008FC0F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FD292401AB802B9008FC0F6 /* EMTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FD292431AB802B9008FC0F6 /* EMTableViewTests.m */,
+				2FD292411AB802B9008FC0F6 /* Supporting Files */,
+			);
+			path = EMTableViewTests;
+			sourceTree = "<group>";
+		};
+		2FD292411AB802B9008FC0F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FD292421AB802B9008FC0F6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FD292551AB80461008FC0F6 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				2FD292521AB8045E008FC0F6 /* EMPhoto.h */,
+				2FD292531AB8045E008FC0F6 /* EMPhoto.m */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		2FD292561AB80559008FC0F6 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				2FD292571AB80571008FC0F6 /* EMPhotoDataSource.h */,
+				2FD292581AB80571008FC0F6 /* EMPhotoDataSource.m */,
+			);
+			name = DataSource;
+			sourceTree = "<group>";
+		};
+		2FD2925F1AB80D99008FC0F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2FD2925C1AB80D93008FC0F6 /* TableViewController.h */,
+				2FD2925D1AB80D93008FC0F6 /* TableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2FD292601AB811D3008FC0F6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2FD2924D1AB80387008FC0F6 /* EMPhotoCell.h */,
+				2FD2924E1AB80387008FC0F6 /* EMPhotoCell.m */,
+				2FD2924F1AB80387008FC0F6 /* EMPhotoCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FD292231AB802B9008FC0F6 /* EMTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FD292471AB802B9008FC0F6 /* Build configuration list for PBXNativeTarget "EMTableView" */;
+			buildPhases = (
+				2FD292201AB802B9008FC0F6 /* Sources */,
+				2FD292211AB802B9008FC0F6 /* Frameworks */,
+				2FD292221AB802B9008FC0F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EMTableView;
+			productName = EMTableView;
+			productReference = 2FD292241AB802B9008FC0F6 /* EMTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FD2923C1AB802B9008FC0F6 /* EMTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FD2924A1AB802B9008FC0F6 /* Build configuration list for PBXNativeTarget "EMTableViewTests" */;
+			buildPhases = (
+				2FD292391AB802B9008FC0F6 /* Sources */,
+				2FD2923A1AB802B9008FC0F6 /* Frameworks */,
+				2FD2923B1AB802B9008FC0F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FD2923F1AB802B9008FC0F6 /* PBXTargetDependency */,
+			);
+			name = EMTableViewTests;
+			productName = EMTableViewTests;
+			productReference = 2FD2923D1AB802B9008FC0F6 /* EMTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FD2921C1AB802B9008FC0F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = iDouKou;
+				TargetAttributes = {
+					2FD292231AB802B9008FC0F6 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					2FD2923C1AB802B9008FC0F6 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 2FD292231AB802B9008FC0F6;
+					};
+				};
+			};
+			buildConfigurationList = 2FD2921F1AB802B9008FC0F6 /* Build configuration list for PBXProject "EMTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FD2921B1AB802B9008FC0F6;
+			productRefGroup = 2FD292251AB802B9008FC0F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FD292231AB802B9008FC0F6 /* EMTableView */,
+				2FD2923C1AB802B9008FC0F6 /* EMTableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FD292221AB802B9008FC0F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD292511AB80387008FC0F6 /* EMPhotoCell.xib in Resources */,
+				2FD292331AB802B9008FC0F6 /* Main.storyboard in Resources */,
+				2FD292381AB802B9008FC0F6 /* LaunchScreen.xib in Resources */,
+				2FD292351AB802B9008FC0F6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD2923B1AB802B9008FC0F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FD292201AB802B9008FC0F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD292501AB80387008FC0F6 /* EMPhotoCell.m in Sources */,
+				2FD292541AB8045E008FC0F6 /* EMPhoto.m in Sources */,
+				2FD2922D1AB802B9008FC0F6 /* AppDelegate.m in Sources */,
+				2FD2922A1AB802B9008FC0F6 /* main.m in Sources */,
+				2FD2925E1AB80D93008FC0F6 /* TableViewController.m in Sources */,
+				2FD292591AB80571008FC0F6 /* EMPhotoDataSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD292391AB802B9008FC0F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD292441AB802B9008FC0F6 /* EMTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FD2923F1AB802B9008FC0F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FD292231AB802B9008FC0F6 /* EMTableView */;
+			targetProxy = 2FD2923E1AB802B9008FC0F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FD292311AB802B9008FC0F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FD292321AB802B9008FC0F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FD292361AB802B9008FC0F6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FD292371AB802B9008FC0F6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FD292451AB802B9008FC0F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2FD292461AB802B9008FC0F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FD292481AB802B9008FC0F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EMTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2FD292491AB802B9008FC0F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EMTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2FD2924B1AB802B9008FC0F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EMTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EMTableView.app/EMTableView";
+			};
+			name = Debug;
+		};
+		2FD2924C1AB802B9008FC0F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EMTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EMTableView.app/EMTableView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FD2921F1AB802B9008FC0F6 /* Build configuration list for PBXProject "EMTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD292451AB802B9008FC0F6 /* Debug */,
+				2FD292461AB802B9008FC0F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FD292471AB802B9008FC0F6 /* Build configuration list for PBXNativeTarget "EMTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD292481AB802B9008FC0F6 /* Debug */,
+				2FD292491AB802B9008FC0F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2FD2924A1AB802B9008FC0F6 /* Build configuration list for PBXNativeTarget "EMTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD2924B1AB802B9008FC0F6 /* Debug */,
+				2FD2924C1AB802B9008FC0F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FD2921C1AB802B9008FC0F6 /* Project object */;
+}
